@@ -21,7 +21,7 @@ The Xamarin.Forms [`DatePicker`](xref:Xamarin.Forms.DatePicker) invokes the plat
 - [`MinimumDate`](xref:Xamarin.Forms.DatePicker.MinimumDate) of type [`DateTime`](xref:System.DateTime), which defaults to the first day of the year 1900.
 - [`MaximumDate`](xref:Xamarin.Forms.DatePicker.MaximumDate) of type `DateTime`, which defaults to the last day of the year 2100.
 - [`Date`](xref:Xamarin.Forms.DatePicker.Date) of type `DateTime`, the selected date, which defaults to the value [`DateTime.Today`](xref:System.DateTime.Today).
-- [`Format`](xref:Xamarin.Forms.DatePicker.Format) of type `string`, a [standard](/dotnet/standard/base-types/standard-date-and-time-format-strings/) or [custom](/dotnet/standard/base-types/custom-date-and-time-format-strings/) .NET formatting string, which defaults to "D", the long date pattern.
+- [`Format`](xref:Xamarin.Forms.DatePicker.Format) of type `string`, a [standard](/dotnet/standard/base-types/standard-date-and-time-format-strings/) or [custom](/dotnet/standard/base-types/custom-date-and-time-format-strings/) .NET formatting string, which defaults to "d", the short date pattern.
 - [`TextColor`](xref:Xamarin.Forms.DatePicker.TextColor) of type [`Color`](xref:Xamarin.Forms.Color), the color used to display the selected date, which defaults to [`Color.Default`](xref:Xamarin.Forms.Color.Default).
 - [`FontAttributes`](xref:Xamarin.Forms.DatePicker.FontAttributes) of type [`FontAttributes`](xref:Xamarin.Forms.FontAttributes), which defaults to [`FontAtributes.None`](xref:Xamarin.Forms.FontAttributes.None).
 - [`FontFamily`](xref:Xamarin.Forms.DatePicker.FontFamily) of type `string`, which defaults to `null`.
